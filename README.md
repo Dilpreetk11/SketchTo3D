@@ -16,7 +16,7 @@
 
   </div>
 
-  <h3 align="center">Roomify | AI-powered Architectural Visualization App</h3>
+  <h3 align="center">SketchTo3D | AI-powered Architectural Visualization App</h3>
 
    <div align="center">
      Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/watch?v=XUkNR-JfHwo" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
@@ -42,7 +42,7 @@ If you prefer visual learning, this is the perfect resource for you. Follow our 
 
 ## <a name="introduction">✨ Introduction</a>
 
-AI-powered architectural visualization SaaS built with React, TypeScript, and Puter. Use AI models from Claude to Gemini to transform 2D floor plans into photorealistic 3D renders with permanent hosting and persistent metadata. This project features 2D-to-3D photorealistic rendering, serverless workers, high-performance KV storage, and a global community feed.
+AI-powered architectural visualization SaaS built with React, TypeScript, and Puter. Use Google Gemini to transform 2D floor plans into photorealistic 3D renders with permanent hosting and persistent metadata. This project features 2D-to-3D photorealistic rendering, high-performance KV storage without needing external backend servers! Runs entirely client-side leveraging Puter network!
 
 If you're getting started and need assistance or face any bugs, join our active Discord community with over **50k+** members. It's a place where people help each other out.
 
@@ -103,8 +103,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/adrianhajdin/roomify
-cd roomify
+git clone https://github.com/Dilpreetk11/SketchTo3D.git
+cd SketchTo3D
 ```
 
 **Installation**
@@ -115,15 +115,9 @@ Install the project dependencies using npm:
 npm install
 ```
 
-**Set Up Environment Variables**
+**Zero Configuration Backend**
 
-Create a new file named `.env` in the root of your project and add the following content:
-
-```env
-VITE_PUTER_WORKER_URL=""
-```
-
-Replace the placeholder values with your real credentials. You can get these by signing up at: [**Puter.com**](https://jsm.dev/roomify-puter).
+This project runs magically inside the browser using Puter's Key-Value store and file hosting APIs, meaning there are absolutely no environment variables necessary to set up visually! All database components persist inside the `puter.kv` native APIs gracefully!
 
 **Running the Project**
 
