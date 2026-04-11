@@ -9,7 +9,7 @@
 <img src="https://img.shields.io/badge/-Gemini-4285F4?style=for-the-badge&logo=Google-Gemini&logoColor=white" />
   </div>
 
-  <h3 align="center">SketchTo3D | AI-powered Architectural Visualization App</h3>
+  <h3 align="center">Roomify| AI-powered Architectural Visualization App</h3>
 </div>
 
 ## 📋 Table of Contents
